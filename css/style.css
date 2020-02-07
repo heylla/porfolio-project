@@ -1,0 +1,317 @@
+*
+{
+    padding: 0;
+    margin: 0;
+
+}
+
+
+@keyframes butter{
+    0%{ opacity: 1;
+        transform: translateY(50vw);
+
+        
+    }
+    100%{opacity: 1;
+        transform: translateX(0vw);
+
+    }
+}
+@font-face{
+    src: url(../font/Sacramento-Regular.ttf);
+    font-family: Sacramento;
+}
+@font-face{
+    src: url(../font/Merriweather-Regular.ttf);
+    font-family: Merriweather;
+}
+@font-face{
+    src: url(../font/Montserrat-Regular.ttf);
+    font-family: Montserrat;
+}
+
+.header{
+    background-size: cover;
+    text-align: center;
+    height: 80%;
+    background-image: url(../img/me.jpg);
+    overflow:hidden;
+}
+
+
+.butt{
+    position: absolute;
+    right: 50px;
+    top: 55px;
+    padding-top: 15rem;
+    animation: butter 3s linear;
+
+   
+}
+
+.butte{
+    position: absolute;
+    left: 30px;
+    top: 50px;
+    padding-right: 15rem;
+    animation: butter 5s linear;
+  
+}
+.name{
+    margin-top: 10rem;
+    font-family: "sacramento";
+    font-size: 120px;
+    color: yellow;
+    padding-bottom: 30px;
+   
+
+}
+.designer{
+    color:peachpuff;
+    text-align: center;
+    font-size: 30px;
+    font-family: montserrat;
+    font-weight: bolder;
+    margin-top: 5px;
+    padding-bottom: 30rem;
+
+}
+
+
+.sectionn{
+    background-color:peachpuff;
+    text-align: center;
+    padding: 30px;
+
+}
+
+#img{
+    border-radius: 150%;
+    height: 250px;
+    width: 250px;
+    padding: 20px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    
+}
+.hey{
+    font-family: "montserrat";
+    font-size: 20px;
+    color: black;
+    text-align: center;
+    margin-top: 20px;
+   
+}
+.detail{
+    font-family: "montserrat";
+    font-size: 50px;
+    color: black;
+    text-align: center;
+    
+    padding-top: 30px;
+}
+.h{
+    font-family: "montserrat";
+    font-size: 25px;
+    color:red;
+    text-align: center;
+    margin-top: 5px;
+}
+.de{
+    font-family: "montserrat";
+    font-size: 20px;
+    color:red;
+    text-align: center;
+    margin-top: 5px;
+    text-align: justify;
+    padding-left: 730px;
+ }       
+.ba{
+    font-family: "montserrat";
+    font-size: 20px;
+    color:red;
+    text-align: center;
+    margin-top: 5px;
+    text-align: justify;
+    text-align: justify;
+    padding-left: 730px;
+    
+
+}
+.ed{
+    font-family: "montserrat";
+    font-size: 20px;
+    color:red;
+    text-align: center;
+    margin-top: 15px;
+    text-align: justify;
+    padding-left: 730px;
+}
+.next{
+    font-family: "sacramento";
+    font-size: 50px;
+    color: black;
+    text-align: center;
+    margin-bottom: 1px;
+}
+
+.bb{
+    padding-bottom: 8rem;
+}
+.browser{
+     width: 15rem;
+     float: left;
+     margin-right: 10px;
+     margin-bottom: 5px;
+     margin-left: 15rem;
+
+}
+.webde{
+    font-family: "sacramento";
+    font-size: 40px;
+    color: seagreen;
+    padding-top: 5px;
+    margin-top: 10px;
+   
+    
+}
+.dev{
+    font-family: "montserrat";
+    font-size: 20px;
+    color:black;
+    margin-top: 10px;
+    padding-top: 10px;
+}
+.planeta{
+    width: 25rem;
+    float: right;
+    margin-right: 20px;
+    margin-bottom: 5px;
+    margin-right: 15rem;
+}
+.as{
+    font-family: "sacramento";
+    font-size: 40px;
+    color: seagreen;
+    padding-top: 1rem;
+    margin-left: 15rem;
+}
+.milky{
+    font-family: "montserrat";
+    font-size: 20px;
+    color:black;
+    padding-top: 1rem;
+    margin-left: 15rem;
+    
+
+}
+.cc{
+    padding-bottom: 3rem;
+}
+.get{
+    font-family: "sacramento";
+    font-size: 80px;
+    color: seagreen;
+    padding-bottom: 1rem;
+    padding-top: 8rem;
+    text-align: center;
+}
+.let{
+    font-family: "montserrat";
+    font-size: 30px;
+    color: seagreen;
+    padding-top: 3rem;
+    padding-bottom: 1rem;
+    text-align: center;
+}
+.love{
+    font-family: "montserrat";
+    font-size: 20px;
+    color: black;
+    
+}
+.dd{
+    text-align: center;
+}
+.bot{
+    text-align: center;
+}
+
+.cont{
+    background-color: rgb(63, 243, 9);
+    border-radius: 20px;
+    font-family: Montserrat;
+    font-size: 25px;
+    font-weight: bolder;
+    margin: 30px;
+    padding: 10px;
+
+}
+.cont:hover{
+    text-decoration: none;
+    font-family: mont;
+    color: white;
+    font-weight: bolder;
+
+}
+
+.footer{
+    background-color: peachpuff;
+    text-align: center;
+    padding: 30px;
+}
+.hu{
+    color:royalblue;
+    text-align: center;
+    padding: 30px;
+}
+
+.link{
+    font-size: 20px;
+    font-weight: montserrat;
+    padding: 30px;
+    padding-bottom: 20px;
+    padding-top: 30px;
+    text-indent: 25px;
+
+}
+.insta{
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: montserrat;
+    padding: 30px;
+    color: seagreen;
+}
+.face{
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: montserrat;
+    padding: 30px;
+    color: seagreen;
+}
+.snap{
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: montserrat;
+    padding: 30px;
+    color: seagreen;
+}
+.face:hover{
+    text-decoration: none;
+    font-family: mont;
+    color: white;
+    font-weight: bolder;
+
+}
+.insta:hover{
+    text-decoration: none;
+    font-family: mont;
+    color: white;
+    font-weight: bolder;
+}
+.snap:hover{
+    text-decoration: none;
+    font-family: mont;
+    color: white;
+    font-weight: bolder;
+}
